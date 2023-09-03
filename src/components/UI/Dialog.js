@@ -4,7 +4,7 @@ import Card from "./Card";
 
 function Dialog(props) {
     function hideDialog() {
-        props.onCancel();
+        props.onConfirm();
     }
 
     return (

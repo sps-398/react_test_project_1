@@ -22,7 +22,7 @@ function UserInput(props) {
             return;
         }
 
-        if(enteredAge <= 0) {
+        if(enteredAge < 1) {
             props.showUserAlert('Invalid Input', 'Please enter age greater than 0.');
             return;
         }
